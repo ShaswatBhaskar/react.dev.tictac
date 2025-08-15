@@ -1,0 +1,14 @@
+<script src="http://192.168.68.103:8097"></script>;
+<script src="http://localhost:8097"></script>;
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "./styles.css";
+
+import App from "./App";
+
+const root = createRoot(document.getElementById("root"));
+root.render(
+  <StrictMode>
+    <App />
+  </StrictMode>
+);
